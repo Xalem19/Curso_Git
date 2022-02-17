@@ -1,0 +1,177 @@
+    1  clear
+    2  git log -2
+    3  git log --pretty=oneline -2
+    4  git log -p -2
+    5  git reset HEAD~
+    6  git status
+    7  git add .
+    8  git status
+    9  git commit -m 'Adicionado arquivo .gitignore'
+   10  git status
+   11  git --pretty=oneline
+   12  git log --pretty=oneline
+   13  ls
+   14  clear
+   15  git branch 
+   16  git checkout -b feature
+   17  git branch
+   18  touch Nova_feature
+   19  git status
+   20  git add Nova_feature
+   21  git commit -m 'Adicionando Nova feature'
+   22  git log
+   23  git status
+   24  git log
+   25  git checkout master
+   26  git log
+   27  git checkout feature
+   28  git checkout -b feature2
+   29  git log
+   30  git checkout master
+   31  git branch -d feature2
+   32  git log
+   33  git checkout feature
+   34  git status
+   35  git log --pretty=oneline
+   36  ls
+   37  clear
+   38  git log --pretty=oneline --graph
+   39  git merge master
+   40  git log
+   41  git log --pretty=oneline --graph
+   42  git merge master
+   43  git merge feature
+   44  git checkout master
+   45  git merge feature
+   46  git status
+   47  git log --pretty=oneline --graph
+   48  git reset -- hard HEAD~
+   49  GIT LOG
+   50  git log
+   51  git reset --hard HEAD~
+   52  git log
+   53  git branch
+   54  git checkout feature2
+   55  git merge feature 
+   56  git log --pretty=oneline --graph
+   57  history > Aula_5.txt
+   58  git add.
+   59  git add Aula_5.txt
+   60  git status
+   61  git commit -m 'Comandos Aula 5'
+   62  git log
+   63  git merge master
+   64  git log
+   65  git rebase master
+   66  git log
+   67  git checkout master
+   68  git log
+   69  git merge feature2
+   70  git log
+   71  git branch -d feature2
+   72  git log
+   73  git branch
+   74  git log --pretty=oneline 
+   75  clear
+   76  git remote add origin https://github.com/Xalem19/Curso_Git.git
+   77  git remote
+   78  git push origin master
+   79  git push origin master
+   80  git log --pretty=oneline 
+   81  git pull origin master
+   82  git log --pretty=oneline 
+   83  cat readme.md
+   84  cat Comandos Aula 5
+   85  ls
+   86  cat Aula_3.txt
+   87  cat participantes.txt
+   88  clear
+   89  ssh-keygen -t rsa -b 4096 -C 'xalem19@gmail.com'
+   90  ls ~/ .ssh
+   91  ls ~/ .ssh
+   92  ls ~/.ssh
+   93  cat ~/.ssh/id_rsa.pub
+   94  cd ..
+   95  mkdir clone
+   96  cd clone
+   97  ls -a
+   98  git clone git@github.com:Xalem19/Curso_Git.git
+   99  ls
+  100  cd Curso_Git
+  101  git log --pretty=oneline 
+  102  history > Aula_7e8.txt
+  103  git add Aula_7e8
+  104  git add Aula_7e8.txt
+  105  git status
+  106  git commit -m 'Comandos Aula GitHub 7 e 8'
+  107  git status
+  108  git log
+  109  git push origin master
+  110  git pull origin master
+  111  history>c
+  112  ls
+  113  cd Desktop
+  114  ls
+  115  cd clone
+  116  ls
+  117  cd Curso_git
+  118  git log
+  119  cd ..
+  120  cd ..
+  121  ls
+  122  cd Curso_git
+  123  git log
+  124  git pull origin master
+  125  git log
+  126  cat readme.md
+  127  ls
+  128  cd ..
+  129  cd clone
+  130  ls
+  131  cd Curso_Git
+  132  ls
+  133  cat Aula_7e8.txt
+  134  cp Aula_7e8.txt Curso_git
+  135  ls
+  136  cc
+  137  cd ..
+  138  cd ..
+  139  cd Curso_git
+  140  ls
+  141  cp Aula_7e8.txt Curso_git
+  142  git stat
+  143  git status
+  144  git log
+  145  cd ..
+  146  cd clone
+  147  ls
+  148  mv Curso_Git Curso_GitClone
+  149  ls
+  150  cd Curso_GitClone
+  151  ls
+  152  mv Aula_7e8.txt Curso_Git
+  153  ls
+  154  cd
+  155  pwd
+  156  git checkout master
+  157  cd Desktop
+  158  ls
+  159  git chechout master
+  160  git checkout master
+  161  cd Curso_Git
+  162  ls
+  163  cd Aula_7e8.txt
+  164  cat Aula_7e8.txt
+  165  git log
+  166  clear
+  167  cd ..
+  168  cd
+  169  cd Desktop
+  170  ls
+  171  cd Curso_Git
+  172  git log
+  173  git diff 22dce9e3e5e6442f3a11b835bd5dcabcc6e06fe3
+  174  git log
+  175  git diff 8af394a16fe3fe8d3b803f659062684b2d07d2ea
+  176  git diff head~2
+  177  history > Comando_Gitgiff.txt
